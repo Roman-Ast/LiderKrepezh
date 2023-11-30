@@ -16,7 +16,6 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 #fixed-img-container{
     position: fixed;
@@ -111,6 +110,8 @@ body{
     align-items: center;
     position: relative;
 }
+
+
 #shadow{
     background-color: rgba(0,0,0, .5);
     position: absolute;
@@ -128,10 +129,6 @@ body{
     top:0;
     width: 80%;
     border-top: 0.5px solid #6a6a6a;
-}
-#square{
-    background-color: #ff6035;
-    position: absolute;
 }
 #main-image-text{
     z-index: 5;
@@ -187,6 +184,9 @@ body{
     justify-content: space-between;
     align-items: center;
     max-width: 60%;
+}
+#about-us-header-mini{
+    display: none;
 }
 #about-us-header{
     color: #fff;
@@ -259,6 +259,7 @@ body{
     font-family: 'OpenSans';
     font-size: 0.9em;
     color: #999999;
+    line-height: 25px;
 }
 
 #offer-container-header{
@@ -348,7 +349,7 @@ body{
     background-image: url('/images/diski-dark.jpg');
 }
 #ocii9{
-    background-image: url('/images/glue-dark2.jpg');
+    background-image: url('/images/stainlesskrepezh.jpg');
     background-size: 100%;
     background-position-y: 50%;
 }

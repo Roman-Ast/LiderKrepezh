@@ -3,13 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Laravel</title>
-        <script src="{{ URL::asset('js/main.js') }}"></script>
-        <script
-  src="https://code.jquery.com/jquery-3.7.0.js"
-  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-  crossorigin="anonymous"></script>
         <link href="{{ URL::asset('css/main-big.css') }}" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="{{ URL::asset('css/main-mini.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
     </head>
     <body>
         <div id="fixed-img-container">
@@ -43,7 +40,6 @@
        </header>
        <div id="main-image-container">
            <div id="shadow"></div>
-           <div class="border"></div>
             <div id="main-image-text">
                 КРЕПЕЖНЫЕ <span style="color:#ff6035">ИЗДЕЛИЯ</span> И МЕТИЗЫ
             </div>
@@ -54,6 +50,9 @@
             </div>
        </div>
        <div id="about-us-container">
+            <div id="about-us-header-mini">
+                НЕМНОГО О НАШЕЙ КОМПАНИИ
+            </div>
            <div id="about-us-img-container">
                <div id="shadow1"></div>
            </div>
@@ -240,10 +239,10 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                 <div class="offer-container-item-img" id="ocii9"></div>
                 <div class="shadow-for-offer"></div>
                 <div class="offer-container-item-header">
-                    ПЕНА, КРАСКА, РАСТВОРИТЕЛЬ, КЛЕЙ
+                    НЕРЖАВЕЮЩИЙ КРЕПЕЖ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    
                 </div>
             </div>
             <div class="offer-container-item">
@@ -397,4 +396,5 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
   integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
   crossorigin="anonymous"></script>
   <script src="{{ URL::asset('js/main.js') }}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>

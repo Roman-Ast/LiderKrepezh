@@ -1,8 +1,10 @@
-$(window).on('scroll', function () {
-    if ($(window).scrollTop() >= 180) {
-        $('#about-us-img-container').show(1000);
-    }
-});
+if ($(window).width() > 600) {
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() >= 180) {
+            $('#about-us-img-container').show(1000);
+        }
+    });
+}
 
 
 $('.offer-container-item').on('mouseenter',function () {
