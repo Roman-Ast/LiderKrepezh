@@ -20,6 +20,8 @@ body{
     margin: 0;
     padding: 0;
 }
+@media screen and (min-width: 1200px) {
+    
 #fixed-img-container{
     position: fixed;
     width: 100%;
@@ -579,3 +581,7 @@ body{
     margin-right: 30px;
     transition: 0.2s;
 }
+}
+/* media queries*/
+
+

@@ -15,7 +15,7 @@
         </div>
        <header id="header-big">
             <div id="header-logo-container">
-                <img id="header-logo" src="/images/logo1.png" >
+                <img id="header-logo" src="/images/logo1.png" width="100">
                 <div id="header-logo-container-text">
                     <div id="header-logo-container-h">
                         Лидер Крепеж
