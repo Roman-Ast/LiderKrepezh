@@ -5,8 +5,9 @@
         <title>Laravel</title>
         <link href="{{ URL::asset('css/main-big.css') }}" rel="stylesheet">
         <link href="{{ URL::asset('css/main-mini.css') }}" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+        <script src="{{ URL::asset('js/jquery-min.js') }}"></script>
     </head>
     <body>
         <div id="fixed-img-container">
@@ -14,7 +15,7 @@
         </div>
        <header id="header-big">
             <div id="header-logo-container">
-                <img id="header-logo" src="/images/logo1.png" width="100">
+                <img id="header-logo" src="/images/logo1.png" >
                 <div id="header-logo-container-text">
                     <div id="header-logo-container-h">
                         Лидер Крепеж
@@ -35,6 +36,14 @@
                     <div id="header-phone-number">
                         +7 702 723 73 14
                     </div>
+                </div>
+            </div>
+            <div id="we-here">
+                <div id="we-here-img-container">
+                    <img src="images/geo-orange24.png" alt="">
+                </div>
+                <div id="we-here-text">
+                    МЫ ЗДЕСЬ
                 </div>
             </div>
        </header>
@@ -61,8 +70,7 @@
                    НЕМНОГО О НАШЕЙ КОМПАНИИ
                </div>
                <div id="about-us-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quae, et cum quidem hic officia ut repudiandae, iure adipisci asperiores debitis doloremque, fugiat odit. Ullam facilis laboriosam odit voluptatem eveniet.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quae, et cum quidem hic officia ut repudiandae, iure adipisci asperiores debitis doloremque, fugiat odit. Ullam facilis laboriosam odit voluptatem eveniet.
+                ТОО "Лидер-Крепеж 2030" занимается продажей разного вида крепежа оптом и в розницу. Предлагаем Вам большой выбор крепежа, метизов, перфорированных уголков, такелажных изделий, стальных канатов, хомутов и стяжек, ручного инструмента, сверел по дереву, металлу, резьбовых шпилек, заклепок комбинированных, резьбовых заклепок, дюбель-гвоздей, по всем стандартам DIN, ГОСТ.
                </div>
                <div id="about-us-offer">
                     <div id="about-us-offer-assorti">
@@ -111,7 +119,7 @@
                 <div class="offer-container-item-img" id="ocii1"></div>
                 <div class="shadow-for-offer"></div>
                 <div class="offer-container-item-header">
-                    КРЕПЕЖ (БОЛТЫ, ГАЙКИ, ШАЙБЫ)
+                    КРЕПЕЖ (МЕТИЗЫ, ШУРУПЫ, АНКЕРА)
                 </div>
                 <div class="offer-container-item-desc">
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
@@ -242,7 +250,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     НЕРЖАВЕЮЩИЙ КРЕПЕЖ
                 </div>
                 <div class="offer-container-item-desc">
-                    
+                    Заклепки, шпильки, болты, гайки,шурупы, тросы и т.д. Марка стали А2,А4
                 </div>
             </div>
             <div class="offer-container-item">
@@ -255,7 +263,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                 <div class="offer-container-item-img" id="ocii10"></div>
                 <div class="shadow-for-offer"></div>
                 <div class="offer-container-item-header">
-                    ТЕПЛОИЗОЛЯЦИЯ
+                    ФАСАДНЫЙ ДЮБЕЛЬ
                 </div>
                 <div class="offer-container-item-desc">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
@@ -305,10 +313,10 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                         <img src="images/shaft-96.png" alt="" width="80">
                     </div>
                     <div class="why-us-block-header">
-                        5000
+                        10000
                     </div>
                     <div class="why-us-block-desc">
-                        кг производства крепежа каждый год
+                        наименований продукции
                     </div>
                 </div>
                 <div class="why-us-block">
@@ -334,9 +342,22 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                         <div class="footer-block1-item-header">
                             Свяжитесь с нами
                         </div>
-                        <div class="footer-block1-item-text">
+                        <a class="footer-block1-item-text" href="tel:+77027237314">
                             +7 702 723 73 14
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-block1-item">
+                    <div class="footer-block1-item-img-container">
+                        <img src="images/insta24wh.png" alt="">
+                    </div>
+                    <div class="footer-block1-item-content">
+                        <div class="footer-block1-item-header">
+                            Instagram
                         </div>
+                        <a class="footer-block1-item-text" href="https://instagram.com/krepezhlider?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
+                            @krepezhlider
+                        </a>
                     </div>
                 </div>
                 <div class="footer-block1-item">
@@ -360,9 +381,9 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                         <div class="footer-block1-item-header">
                             Наш адрес
                         </div>
-                        <div class="footer-block1-item-text">
-                            ул. Пушкина, 127
-                        </div>
+                        <a class="footer-block1-item-text" href="https://2gis.kz/astana/geo/70000001018134298" target="_blank">
+                            Богенбай Батыра 6/5 
+                        </a>
                     </div>
                 </div>
             </div>
@@ -391,10 +412,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
             </div>
        </footer>
     </body>
-    <script
-  src="https://code.jquery.com/jquery-3.7.0.js"
-  integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-  crossorigin="anonymous"></script>
   <script src="{{ URL::asset('js/main.js') }}"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
