@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <title>Laravel</title>
+        <title>Krepezhlider2030</title>
         <link href="{{ URL::asset('css/main-big.css') }}" rel="stylesheet">
         <link href="{{ URL::asset('css/main-mini.css') }}" rel="stylesheet">
+        <link rel="icon" href="images/logo-png.png?v=2" type="image/x-icon" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
         <script src="{{ URL::asset('js/jquery-min.js') }}"></script>
     </head>
     <body>
+        <div id="contact-buttons">
+            <div id="phone-button">
+                <a href="tel:+77027237314">
+                    <img src="images/phone64.png" alt="">
+                </a>
+            </div>
+            <div id="wa-button">
+                <a href="https://wa.me/77027237314">
+                    <img src="images/wa-64.png" alt="">
+                </a>
+            </div>
+        </div>
         <div id="fixed-img-container">
             <img src="images/bolts3.jpg" id="fixed-img">
         </div>
@@ -39,11 +53,14 @@
                 </div>
             </div>
             <div id="we-here">
+                
                 <div id="we-here-img-container">
-                    <img src="images/geo-orange24.png" alt="">
+                    <a href="https://2gis.kz/astana/geo/70000001018134298">
+                        <img src="images/dot36.png" alt="">
+                    </a>
                 </div>
                 <div id="we-here-text">
-                    МЫ ЗДЕСЬ
+                    <a href="https://2gis.kz/astana/geo/70000001018134298" style="text-decoration:none;color:#fff;" target="_blank"> Мы здесь!</a>
                 </div>
             </div>
        </header>
@@ -81,9 +98,7 @@
                         <div id="about-us-offer-assorti-header">
                             ШИРОКИЙ АССОРТИМЕНТ
                         </div>
-                        <div id="about-us-offer-assorti-text">
-                            У нас Вы найдете все! Более 25 лет наша компания занимает лидерское место в данной сфере услуг
-                        </div>
+                        
                     </div>
                     <div id="about-us-offer-prices">
                         <div id="about-us-offer-prices-img-container">
@@ -93,9 +108,7 @@
                         <div id="about-us-offer-prices-header">
                             ГИБКИЕ ЦЕНЫ
                         </div>
-                        <div id="about-us-offer-prices-text">
-                            Доступные цены на все! 750 партнеров по всему миру. 95% наших клиентов становятся постоянными
-                        </div>
+                        
                     </div>
                 </div>
            </div>

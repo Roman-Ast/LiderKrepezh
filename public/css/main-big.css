@@ -454,6 +454,7 @@ body{
 }
 
 .why-us-block-img{
+    
     display: flex;
     justify-content: center;
     align-items: center;

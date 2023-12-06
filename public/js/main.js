@@ -30,7 +30,6 @@ hideCatalogElem($('.offer-container-item'));
 $(window).scroll(function(){
     let elem_offset_top = $('.offer-container-item').offset().top;
     let scrolled = $(window).scrollTop();
-    console.log('elem-scroll-top: ' + elem_offset_top + '; window-scroll: ' + scrolled );
     
 });
 
