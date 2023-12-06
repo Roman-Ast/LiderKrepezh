@@ -53,15 +53,17 @@
                 </div>
             </div>
             <div id="we-here">
-                
+                <div id="we-here-insta">
+                    <a href="https://instagram.com/krepezhlider?igshid=YzAwZjE1ZTI0Zg==">
+                        <img src="images/instagram36.png" alt="">
+                    </a>
+                </div>
                 <div id="we-here-img-container">
                     <a href="https://2gis.kz/astana/geo/70000001018134298">
                         <img src="images/dot36.png" alt="">
                     </a>
                 </div>
-                <div id="we-here-text">
-                    <a href="https://2gis.kz/astana/geo/70000001018134298" style="text-decoration:none;color:#fff;" target="_blank"> Мы здесь!</a>
-                </div>
+                
             </div>
        </header>
        <div id="main-image-container">
@@ -355,7 +357,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                         <div class="footer-block1-item-header">
                             Свяжитесь с нами
                         </div>
-                        <a class="footer-block1-item-text" href="tel:+77027237314">
+                        <a style="text-decoration: none;" class="footer-block1-item-text" href="tel:+77027237314">
                             +7 702 723 73 14
                         </a>
                     </div>
@@ -368,7 +370,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                         <div class="footer-block1-item-header">
                             Instagram
                         </div>
-                        <a class="footer-block1-item-text" href="https://instagram.com/krepezhlider?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
+                        <a style="text-decoration: none;" class="footer-block1-item-text" href="https://instagram.com/krepezhlider?igshid=YzAwZjE1ZTI0Zg==" target="_blank">
                             @krepezhlider
                         </a>
                     </div>
@@ -394,7 +396,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                         <div class="footer-block1-item-header">
                             Наш адрес
                         </div>
-                        <a class="footer-block1-item-text" href="https://2gis.kz/astana/geo/70000001018134298" target="_blank">
+                        <a style="text-decoration: none;" class="footer-block1-item-text" href="https://2gis.kz/astana/geo/70000001018134298" target="_blank">
                             Богенбай Батыра 6/5 
                         </a>
                     </div>
