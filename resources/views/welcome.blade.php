@@ -6,7 +6,7 @@
         <title>Krepezhlider2030</title>
         <link href="{{ URL::asset('css/main-big.css') }}" rel="stylesheet">
         <link href="{{ URL::asset('css/main-mini.css') }}" rel="stylesheet">
-        <link rel="icon" href="images/logo-png.png?v=2" type="image/x-icon" />
+        <link rel="icon" href="images/logo1.png?v=2" type="image/x-icon" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
         <script src="{{ URL::asset('js/jquery-min.js') }}"></script>
