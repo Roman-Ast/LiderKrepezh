@@ -57,7 +57,7 @@
 
     #main-image-container{
         height: 85vh;
-        background-size: 230%;
+        background-size: 240%;
         background-position-y: 0%;
         background-position-x: 0%;
     }
@@ -73,7 +73,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 260vh;
+        height: 230vh;
         padding-top: 80px;
         padding-bottom: 200px;
     }
