@@ -405,6 +405,9 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     Мы будем искренне рады, если в нашем лице Вы найдёте достойного и надёжного партнёра. Мы обеспечиваем клиента высоким качеством предоставляемого сервиса, а это, в свою очередь, не может остаться незамеченным.
                 </div>
             </div>
+            <div id="add-first-item-img-container">
+                <img src="images/logo1.png" alt="" width="100">
+            </div>
             <div id="footer-button-up-container">
                 <div id="footer-up-button">
                     <img src="images/up-arrow-36wh.png" alt="">
