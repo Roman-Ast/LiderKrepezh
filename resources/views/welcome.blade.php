@@ -100,7 +100,9 @@
                         <div id="about-us-offer-assorti-header">
                             ШИРОКИЙ АССОРТИМЕНТ
                         </div>
-                        
+                        <div id="about-us-offer-assorti-text">
+                            Более 10000 наименований в наличии на складе!
+                        </div>
                     </div>
                     <div id="about-us-offer-prices">
                         <div id="about-us-offer-prices-img-container">
@@ -110,7 +112,9 @@
                         <div id="about-us-offer-prices-header">
                             ГИБКИЕ ЦЕНЫ
                         </div>
-                        
+                        <div id="about-us-offer-prices-text">
+                            Цены Вас приятно удивят! Скидки акции!
+                        </div>
                     </div>
                 </div>
            </div>
