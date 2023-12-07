@@ -388,7 +388,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                             Наша почта
                         </div>
                         <div class="footer-block1-item-text">
-                            lider_krepezh@mail.ru
+                            liderkrepezh@mail.ru
                         </div>
                     </div>
                 </div>
