@@ -171,6 +171,7 @@
     }
     .offer-container-item{
         width: 70%;
+        height: 50vh;
     }
     .offer-container-item-header{
         font-size: 1.2em;
