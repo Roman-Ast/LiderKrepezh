@@ -26,7 +26,6 @@
             </div>
         </div>
         <div id="fixed-img-container">
-            <img src="images/bolts3.jpg" id="fixed-img">
         </div>
        <header id="header-big">
             <div id="header-logo-container">
