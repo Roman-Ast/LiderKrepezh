@@ -45,7 +45,7 @@
         font-size: 3.2em;
     }
     #main-image-container{
-        height: 80vh;
+        height: 100vh;
         background-size: 140%;
         background-position-y: 0%;
         background-position-x: 0%;
@@ -60,7 +60,7 @@
         margin-bottom: 30px;
     }
     #about-us-header{
-        display: flex;
+        display: none;
     }
     #about-us-container{
         width: 100%;
@@ -68,18 +68,32 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 300vh;
+        height: 500px;
         padding-top: 80px;
         padding-bottom: 200px;
     }
     #about-us-img-container{
-        min-height: 40%;
+        min-height: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 70%;
         position: relative;
         background-size: cover;
+    }
+    #offer-container-header{
+        width: 100%;
+        font-size: 2.2em;
+        padding: 0;
+        justify-content: center;
+    }
+    #offer-container-sub-header{
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 0;
+        justify-content: center;
+        padding-bottom: 60px;
     }
     .offer-container-item{
         width: 45%;
@@ -95,6 +109,33 @@
         align-items: center;
     }
     #footer-big{
-        height: 200vh;
+        height: 100vh;
+        padding-top: 100px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #footer-big-first-block{
+        padding-left: 10px;
+        width: 100%;
+        margin: 0;
+    }
+    .footer-block1-item{
+        width: 100%;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    #footer-big-second-block{
+        display: none;
+    }
+    #footer-button-up-container{
+        display: none;
+    }
+    #footer-big-first-block{
+        border: none;
+    }
+    #add-first-item-img-container{
+        display:flex;
+        justify-content: center;
+        margin-top: 20px;
     }
 }
