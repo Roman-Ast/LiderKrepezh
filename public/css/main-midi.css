@@ -1,6 +1,6 @@
 @media screen and (min-width: 451px) and (max-width: 768px){
     #header-big{
-        height: 15vh;
+        height: 20vh;
         width: 100%;
         align-items: center;
     }
@@ -33,6 +33,9 @@
         padding-right: 20px;
         z-index: 100;
     }
+    #main-image-text{
+        font-size: 3em;
+    }
     #main-image-container{
         height: 80vh;
         background-size: 140%;
@@ -45,12 +48,12 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 200vh;
+        height: 300vh;
         padding-top: 80px;
         padding-bottom: 200px;
     }
     #about-us-img-container{
-        min-height: 30%;
+        min-height: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -64,7 +67,7 @@
     }
     #why-us{
         width: 100%;
-        height: 120vh;
+        height: 180vh;
         background-color: rgba(0,0,0, .8);
         display: flex;
         flex-direction: column;
@@ -72,6 +75,6 @@
         align-items: center;
     }
     #footer-big{
-        height: 120vh;
+        height: 200vh;
     }
 }
