@@ -368,7 +368,10 @@ body{
     background-position-y: 50%;
 }
 #ocii10{
-    background-image: url('images/faсad-dubel.jpeg');
+    background-image: url('/images/fasad.jpg');
+    background-size: cover;
+    background-position-y: 0%;
+    background-position-x: 50%;
 }
 #ocii11{
     background-image: url('/images/tape-dark.jpg');
