@@ -108,6 +108,9 @@
         justify-content: space-evenly;
         align-items: center;
     }
+    #why-us-block-container{
+        width: 80%;
+    }
     #footer-big{
         height: 100vh;
         padding-top: 100px;
