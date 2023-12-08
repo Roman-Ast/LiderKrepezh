@@ -42,13 +42,25 @@
         z-index: 100;
     }
     #main-image-text{
-        font-size: 3em;
+        font-size: 3.2em;
     }
     #main-image-container{
         height: 80vh;
         background-size: 140%;
         background-position-y: 0%;
         background-position-x: 0%;
+    }
+    #about-us-header-mini{
+        max-width: 90%;
+        color: #fff;
+        font-family: 'RussoOne';
+        font-size: 2.2em;
+        display: flex;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #about-us-header{
+        display: flex;
     }
     #about-us-container{
         width: 100%;
@@ -61,7 +73,7 @@
         padding-bottom: 200px;
     }
     #about-us-img-container{
-        min-height: 70%;
+        min-height: 40%;
         display: flex;
         justify-content: center;
         align-items: center;
