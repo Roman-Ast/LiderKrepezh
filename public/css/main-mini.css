@@ -186,9 +186,28 @@
     #ocii7,
     #ocii8,
     #ocii9,
-    #ocii10,
     #ocii11{
         background-size: cover;
+    }
+    #ocii7{
+        background-size: cover;
+        background-position-y: 60%;
+        background-position-x: 60%;
+    }
+    #ocii9{
+        background-size: cover;
+        background-position-y: 0%;
+        background-position-x: 50%;
+    }
+    #ocii10{
+        background-size: cover;
+        background-position-y: 0%;
+        background-position-x: 0%;
+    }
+    #ocii11{
+        background-size: cover;
+        background-position-y: 0%;
+        background-position-x: 50%;
     }
     #why-us{
         width: 100%;
