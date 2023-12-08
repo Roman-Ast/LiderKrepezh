@@ -188,7 +188,7 @@ body{
     align-items: center;
     width: 30%;
     position: relative;
-    background-image: url('/images/kanats.jpeg');
+    background-image: url('/images/about-us.avif');
     background-size: cover;
     display: none;
 }
@@ -368,8 +368,7 @@ body{
     background-position-y: 50%;
 }
 #ocii10{
-    background-size: 100%;
-    background-image: url('/images/fasad-dubel.jpg');
+    background-image: url('images/faсad-dubel.jpeg');
 }
 #ocii11{
     background-image: url('/images/tape-dark.jpg');

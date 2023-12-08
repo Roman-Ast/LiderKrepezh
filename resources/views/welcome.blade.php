@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title>Krepezhlider2030</title>
         <link href="{{ URL::asset('css/main-big.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('css/main-midi.css') }}" rel="stylesheet">
         <link href="{{ URL::asset('css/main-mini.css') }}" rel="stylesheet">
         <link rel="icon" href="images/logo1.png?v=2" type="image/x-icon" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -73,7 +74,7 @@
             </div>
             <div id="main-image-slogan">
                 <div id="main-image-slogan-inner">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam velit alias sapiente, ipsam distinctio inventore ipsa iure nulla eos! Eligendi nesciunt reprehenderit hic distinctio minus cum autem asperiores veritatis quisquam?
+                    ДОСТАВКА В ЛЮБУЮ ТОЧКУ КАЗАХСТАНА!
                 </div>
             </div>
        </div>
@@ -141,7 +142,7 @@
                     КРЕПЕЖ (МЕТИЗЫ, ШУРУПЫ, АНКЕРА)
                 </div>
                 <div class="offer-container-item-desc">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Дюбель MOLLY, крючки по дереву, болт(глухарь)DIN 571, болт U-образный DIN 3570, винт DIN 967, винт DIN 965, винт DIN 7985, гайка DIN 315, дюбель-гвозди, дюбель нейлоновый, заклепки резьбовые, клиновой анкер, саморезы по дереву, саморезы по металлу
                 </div>
             </div>
             <div class="offer-container-item">
@@ -157,7 +158,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     СТАЛЬНЫЕ КАНАТЫ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    DIN 3055 в ПВХ оплетке, DIN 3055, сталь А2/А4
                 </div>
             </div>
             <div class="offer-container-item">
@@ -173,7 +174,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     ПЕРФОРИРОВАННЫЙ КРЕПЕЖ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Крепежные пластины, уголки, уголки для стропильных соединений, уголки Т-образные, опоры бруса, перфорированные монтажные ленты, ленты для вентиляции, кронштейны, скобяные изделия, пробой ушко, угольники, рояльные петли
                 </div>
             </div>
             <div class="offer-container-item">
@@ -189,7 +190,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     ТАКЕЛАЖ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Цепь DIN 763, цепь DIN766, зажим DIN 741, зажим бочонок, зажим DIN 3093, зажим DUPLEX, зажим SIMPLEX, скоба такелажная DIN G2130, скоба CL-B, соединители цепей, вертлюги, блоки такелажные, рым болт DIN580, рым гайка DIN 582, талреп DIN 1480 НR, крюк такелажный, коуш DIN 6899, карабин винтовой
                 </div>
             </div>
             <div class="offer-container-item">
@@ -205,7 +206,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     ЭЛЕКТРОДЫ И СВАРОЧНАЯ ПРОВОЛОКА
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Электроды Арсенал, электроды MONOLITH, электроды Тянь-Шань, сварочная проволока, сварочные маски, сварочные стекла, галицы
                 </div>
             </div>
             <div class="offer-container-item">
@@ -221,7 +222,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     ХОМУТЫ И СТЯЖКИ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Хомуты червячные, хомуты усиленные, хомут стяжка, хомут сантехнический, скоба двухлапковая
                 </div>
             </div>
             <div class="offer-container-item">
@@ -237,7 +238,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     РУЧНОЙ ИНСТРУМЕНТ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Пистолет для дюбелей MOLLY, пистолет для резьбовых заклепок, ножи канцелярские, ножи для линолеума, ножи обойные, запасные лезвия, уровни, наборов метчиков и плашек, коронки по дереву, сверла по: бетону, дереву, кафелю, керамограниту; степлер мебельный, пилы по дереву и металлу, шуруповерты
                 </div>
             </div>
             <div class="offer-container-item">
@@ -253,7 +254,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     ДИСКИ ОТРЕЗНЫЕ, ШЛИФОВАЛЬНЫЕ, ПИЛЬНЫЕ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Диски отрезные по: металлу, камню, бетону, кирпичу, мрамору, граниту, кафелю; диски пильные по дереву, диски шлифовальные
                 </div>
             </div>
             <div class="offer-container-item">
@@ -285,7 +286,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     ФАСАДНЫЙ ДЮБЕЛЬ
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Дюбель для теплоизоляции, дюбель фасадный, дюбель полипропиленовый (без шурупа), рандоль, дюбель нейлоновый
                 </div>
             </div>
             <div class="offer-container-item">
@@ -303,7 +304,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                     СКОТЧ, ИЗОЛЕНТА
                 </div>
                 <div class="offer-container-item-desc">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos sequi ratione, deserunt alias facilis pariatur corrupti itaque, blanditiis amet explicabo doloribus a. Mollitia tenetur libero obcaecati eos?
+                    Скотч бумажный, скотч прозрачный, скотч аллюминиевый, изолента ПВХ, изолента
                 </div>
             </div>
     </div>
@@ -388,7 +389,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis quo officia quos 
                             Наша почта
                         </div>
                         <div class="footer-block1-item-text">
-                            liderkrepezh@mail.ru
+                            liderkrepezh@gmail.ru
                         </div>
                     </div>
                 </div>

@@ -85,7 +85,6 @@
         align-items: center;
         width: 80%;
         position: relative;
-        background-image: url('/images/kanats.jpeg');
         background-size: cover;
     }
     #about-us-info{
