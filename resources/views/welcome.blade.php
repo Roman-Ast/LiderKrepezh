@@ -17,12 +17,14 @@
         <div id="contact-buttons">
             <div id="phone-button">
                 <a href="tel:+77027237314">
+                    <span class="wave-phone"></span>
                     <img src="images/phone64.png" alt="">
                 </a>
             </div>
             <div id="wa-button">
+                <span class="wave-wa"></span>
                 <a href="https://wa.me/77027237314">
-                    <img src="images/wa-64.png" alt="">
+                    <img src="images/wa-64.png" alt="" class="hithere">
                 </a>
             </div>
         </div>
@@ -62,7 +64,7 @@
                 </div>
                 <div id="we-here-img-container">
                     <a href="https://2gis.kz/astana/geo/70000001018134298">
-                        <img src="images/dot36.png" alt="">
+                        <img src="images/dot36.png" alt="" class="gis-bounce">
                     </a>
                 </div>
                 

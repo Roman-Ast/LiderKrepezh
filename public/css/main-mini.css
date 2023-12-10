@@ -1,27 +1,5 @@
 @media screen and (max-width: 450px){
-    #phone-button{
-        animation: animate 1.5s linear infinite;
-    }
-    #wa-button{
-        animation: animate 1.5s linear infinite;
-    }
-    @keyframes animate
-{
-    0%
-    {
-        transform: scale(0.5);
-        opacity: 0;
-    }
-    50%
-    {
-        opacity: 1;
-    }
-    100%
-    {
-        transform: scale(1.8);
-        opacity: 0;
-    }
-}
+
     #contact-buttons{
         position: fixed;
         bottom: 10px;

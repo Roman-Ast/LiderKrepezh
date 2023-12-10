@@ -1,3 +1,4 @@
+@media screen and (max-width: 1024px){
 .wave-phone{
     position: absolute;
     display: flex;
@@ -36,4 +37,27 @@
         transform: scale(1.8);
         opacity: 0;
     }
+}
+.gis-bounce{
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+.hithere {
+    animation: hithere 1s ease infinite;
+  }
+  @keyframes hithere {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+  }
 }
