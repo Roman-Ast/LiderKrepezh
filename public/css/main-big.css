@@ -337,7 +337,7 @@ body{
     background-position: 50% 20%;
 }
 #ocii2{
-    background-image: url('/images/kanat-dark.jpg');
+    background-image: url('/images/kanats-wh.jpg');
 }
 #ocii3{
     background-image: url('/images/perf-dark.jpeg');
@@ -348,13 +348,16 @@ body{
     background-image: url('/images/takelaj.jpg');
 }
 #ocii5{
-    background-color: black;
-    background-image: url('/images/electrodes-dark.png');
+    background-image: url('/images/electrodi-wh.jpg');
+    background-position-x: 70%;
+    background-position-y: 50%;
+    background-size: 120%;
 }
 #ocii6{
     background-position-x: 70%;
     background-position-y: 50%;
-    background-image: url('/images/homuts-dark.jpg');
+    background-size: 100%;
+    background-image: url('/images/homuts-wh.jpg');
 }
 #ocii7{
     background-image: url('/images/handtools-dark.jpg');
