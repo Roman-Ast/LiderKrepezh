@@ -12,6 +12,16 @@
         height: 100px;
         align-items: center;
     }
+    #header-logo-container{
+        margin-left: 10px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        align-items: center;
+        width: 20%;
+    }
+    #header-logo{
+        max-width: 100%;
+    }
     #we-here{
         display: flex;
         flex-direction: row;
