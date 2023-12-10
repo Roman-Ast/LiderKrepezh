@@ -7,7 +7,7 @@
         <link href="{{ URL::asset('css/main-big.css') }}" rel="stylesheet">
         <link href="{{ URL::asset('css/main-midi.css') }}" rel="stylesheet">
         <link href="{{ URL::asset('css/main-mini.css') }}" rel="stylesheet">
-        <link rel="icon" href="images/logo1.png?v=2" type="image/x-icon" />
+        <link rel="icon" href="images/logo-circle.png?v=2" type="image/x-icon" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
         <script src="{{ URL::asset('js/jquery-min.js') }}"></script>
@@ -30,7 +30,7 @@
         </div>
        <header id="header-big">
             <div id="header-logo-container">
-                <img id="header-logo" src="/images/logo1.png" width="100">
+                <img id="header-logo" src="/images/logo-circle.png" width="100">
                 <div id="header-logo-container-text">
                     <div id="header-logo-container-h">
                         Лидер Крепеж
@@ -410,7 +410,7 @@
             <div id="footer-big-second-block">
                 <div id="footer-big-second-block-first-item">
                     <div id="first-item-img-container">
-                        <img src="images/logo1.png" alt="" width="100">
+                        <img src="images/logo-circle.png" alt="" width="100">
                     </div>
                     <div id="first-item-content">
                         <div id="first-item-header">
@@ -426,7 +426,7 @@
                 </div>
             </div>
             <div id="add-first-item-img-container">
-                <img src="images/logo1.png" alt="" width="100">
+                <img src="images/logo-circle.png" alt="" width="100">
             </div>
             <div id="footer-button-up-container">
                 <div id="footer-up-button">
