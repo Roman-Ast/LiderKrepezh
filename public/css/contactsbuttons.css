@@ -1,0 +1,39 @@
+.wave-phone{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border: 1px solid #49a0ae;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+}
+.wave-wa{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border: 1px solid #51b255;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
