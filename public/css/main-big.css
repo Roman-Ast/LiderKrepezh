@@ -52,7 +52,7 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     margin-left: 20px;
 }
 #we-here{

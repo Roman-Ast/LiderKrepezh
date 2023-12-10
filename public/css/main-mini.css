@@ -30,7 +30,10 @@
         margin-bottom: 25px;
         margin-top: 25px;
         align-items: center;
-        width: 18%;
+        width: 20%;
+    }
+    #header-logo{
+        max-width: 100%;
     }
     #we-here{
         display: flex;
@@ -42,6 +45,7 @@
         margin-right: 10px;
         width: 25%;
     }
+    
     #header-logo-container-text{
         display: none;
     }
